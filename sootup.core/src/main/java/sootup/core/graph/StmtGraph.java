@@ -625,8 +625,11 @@ public abstract class StmtGraph<V extends BasicBlock<V>> implements Iterable<Stm
               otherBlocks.addFirst(leaderOfFallsthroughBlocks);
             }
           } else if (!nestedBlocks.contains(leaderOfFallsthroughBlocks)) {
+            if (succTailStmt instanceof JThrowStmt) {
+              otherBlocks.addLast(leaderOfFallsthroughBlocks);
+            }
             // JSwitchStmt, JIfStmt
-            if (isReturnBlock) {
+            else if (isReturnBlock) {
               nestedBlocks.addLast(leaderOfFallsthroughBlocks);
             } else {
               nestedBlocks.addFirst(leaderOfFallsthroughBlocks);
