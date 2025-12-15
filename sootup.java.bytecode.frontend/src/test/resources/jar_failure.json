@@ -1,0 +1,8 @@
+[
+{
+  "jar_name": "jclouds-azure-1.0-beta-8.jar",
+  "exception": "cannot convert Object to (Soot-)Constant.",
+  "download_url": "https://repo1.maven.org/maven2/org/jclouds/jclouds-azure/1.0-beta-8/jclouds-azure-1.0-beta-8.jar",
+  "failedMethodSignature": ""
+}
+]
