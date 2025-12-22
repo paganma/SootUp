@@ -1,0 +1,14 @@
+[
+{
+  "jar_name": "scouter-server-2.20.0.jar",
+  "exception": "Failed to apply sootup.interceptors.LocalSplitter@9182ee1 to <scouter.util.SysJMX: java.lang.String getHostName()>",
+  "download_url": "https://repo1.maven.org/maven2/io/github/scouter-project/scouter-server/2.20.0/scouter-server-2.20.0.jar",
+  "failedMethodSignature": "<scouter.util.SysJMX: java.lang.String getHostName()>"
+},
+{
+  "jar_name": "turf-point-2.0.1.jar",
+  "exception": "java.lang.RuntimeException: Could not open file system of /tmp/tempDir17294055906967203370/turf-point-2.0.1.jar",
+  "download_url": "https://repo1.maven.org/maven2/org/webjars/npm/turf-point/2.0.1/turf-point-2.0.1.jar",
+  "failedMethodSignature": ""
+}
+]
